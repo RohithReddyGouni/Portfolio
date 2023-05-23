@@ -1,39 +1,36 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import Proj1 from "../assets/livecrickethub.png";
+import Proj2 from "../assets/TVMaze.jpeg";
+import Proj3 from "../assets/TicketMaster.png";
+import Proj4 from "../assets/CourseReview.webp";
+import Proj5 from "../assets/ResumeBuilder.jpeg";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "Live Cricket Hub",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills:
+      "ReactJS, Express, MongoDB, Node JS, Redux, GraphQL, EC2, JavaScript,Material UI,HTML,CSS",
   },
   {
-    name: "Ecommerce Website",
+    name: "TV Maze",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "React,Node.js,MongoDB, JavaScript,Material UI, HTML,CSS",
   },
   {
-    name: "Spotify Clone",
+    name: "TicketMaster",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "React,Node.js,MongoDB, JavaScript,Material UI, HTML,CSS",
   },
   {
-    name: "Social Media Website",
+    name: "Course Review System",
     image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills:
+      "JavaScript, Bootstrap, JQuery, HTML, CSS, MongoDB, Node.js, Express.js",
   },
   {
-    name: "Dashboard Visualizer",
+    name: "Resume Builder",
     image: Proj5,
-    skills: "JavaScript,HTML,CSS",
-  },
-  {
-    name: "Mobile Game",
-    image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
+    skills:
+      "JavaScript, Bootstrap, JQuery, HTML, CSS, MongoDB, Node.js, Express.js",
   },
 ];

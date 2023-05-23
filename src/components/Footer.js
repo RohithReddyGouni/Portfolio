@@ -6,15 +6,32 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "../styles/Footer.css";
 
 function Footer() {
+  const handleInstagramClick = () => {
+    window.open("https://www.instagram.com/rohith_45reddy/", "_blank");
+  };
+
+  const handleTwitterClick = () => {
+    window.open("https://twitter.com/rohith174518", "_blank");
+  };
+
+  const handleLinkedInClick = () => {
+    window.open("https://www.linkedin.com/in/rohithreddygouni/", "_blank");
+  };
+
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+        <a href="#" onClick={handleInstagramClick}>
+          <InstagramIcon />
+        </a>
+        <a href="#" onClick={handleTwitterClick}>
+          <TwitterIcon />
+        </a>
+        <a href="#" onClick={handleLinkedInClick}>
+          <LinkedInIcon />
+        </a>
       </div>
-      <p> &copy; 2022 pedrotech.com</p>
+      <p> &copy; 2023 RohithReddyGouni.com</p>
     </div>
   );
 }

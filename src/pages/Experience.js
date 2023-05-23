@@ -13,25 +13,13 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2010 - 2014"
+          date="2015 - 2019"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Random High School, Random Place, Random State
+            My Cool Univesity, JNTU Hyderabad, India
           </h3>
-          <p> High School Diploma</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2014 - 2018"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            My Cool University, Vancouver, British Columbia
-          </h3>
-
           <h4 className="vertical-timeline-element-subtitle">
             Bachelor's Degree
           </h4>
@@ -40,35 +28,33 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2018 - 2020"
+          date="2019 - 2021"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Back End Engineer - Google
+            Associate Software Engineer - Tata Consultancy Services
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            Hyderbad, India
           </h4>
-          <p>Developed the backend infrastructure for 3 projects.</p>
+          <p>Worked on Data Warehouse Management Tool </p>
         </VerticalTimelineElement>
-
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2020 - present"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          className="vertical-timeline-element--education"
+          date="2022 - 2023"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Full Stack Engineer - Twitch
+            My Cool University, Stevens Institute of Technology, Hoboken, NJ
           </h3>
+
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            Master's Degree
           </h4>
-          <p>
-            Helped the team launch 2 major features by working both in the front
-            end and back end.
-          </p>
+
+          <p> Computer Science</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
